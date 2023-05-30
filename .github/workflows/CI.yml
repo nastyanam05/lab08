@@ -1,0 +1,17 @@
+name: Build and run c++ app
+
+on:
+  push:
+    branches:
+      main
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build and run Docker container
+        run: |
+          docker-compose up --build -d
