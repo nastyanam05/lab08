@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <cstring>
 
-#define PORT 5555
+#define PORT 1223
 
 using namespace std;
 
