@@ -4,14 +4,14 @@ services:
   server:
     build: ./server
     ports:
-      - 5555:5555
+      - 1223:1223
     networks:
       - app-network
 
   client:
     build: ./client
     ports:
-      - 5556:5556
+      - 1224:1224
     depends_on:
       - server
     networks:
