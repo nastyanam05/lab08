@@ -20,6 +20,10 @@ docker inspect <ID_container> - вывод содержимого контейн
 Attaching to tp-lab08-client-1, tp-lab08-server-1
 tp-lab08-server-1  | Server listening on port 1223
 ```
+Чтобы проверить работу контейнера в браузере необходимо ввести: localhost:<port_in_server_cpp>
+
+![48316851-50ED-4CE7-BA67-4C42D5152116_1_201_a](https://github.com/nastyanam05/lab08/assets/112873954/ecfdd387-9ff1-4cdc-b824-15f57f8436c9)
+
 Для выхода и завершения работы сервера нажать CTRL + C
 
 5) Создаем директорию .github/workflows
