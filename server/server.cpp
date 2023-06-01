@@ -7,7 +7,7 @@
 #include <cstring>
 
 #define MAX_CLIENTS 10
-#define PORT 5555
+#define PORT 1223
 
 using namespace std;
 
@@ -45,7 +45,7 @@ int main() {
             exit(EXIT_FAILURE);
         }
 
-        const char *message = "Wooohooo hello to whoever got the server down!!!";
+        const char *message = "hello_world!";
         send(clientfd, message, strlen(message), 0);
 
         close(clientfd);
