@@ -18,7 +18,7 @@ docker inspect <ID_container> - вывод содержимого контейн
  ✔ Container tp-lab08-server-1   Created                                   0.1s 
  ✔ Container tp-lab08-client-1   Created                                   0.1s 
 Attaching to tp-lab08-client-1, tp-lab08-server-1
-tp-lab08-server-1  | Server listening on port 5555
+tp-lab08-server-1  | Server listening on port 1223
 ```
 Для выхода и завершения работы сервера нажать CTRL + C
 
