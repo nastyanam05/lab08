@@ -13,7 +13,7 @@ docker inspect <ID_container> - вывод содержимого контейн
 
 `docker-compose up` - запуск контейнера
 ```
-[+] Running 3/2
+[+] Running 2/2
  ✔ Network tp-lab08_app-network  Created                                   0.0s 
  ✔ Container tp-lab08-server-1   Created                                   0.1s 
  ✔ Container tp-lab08-client-1   Created                                   0.1s 
