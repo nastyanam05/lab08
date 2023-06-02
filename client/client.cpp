@@ -27,8 +27,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
 
-    if (connect(sockfd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) 
-< 0) {
+    if (connect(sockfd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
         perror("Connect failed");
         exit(EXIT_FAILURE);
     }
